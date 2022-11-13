@@ -1,0 +1,39 @@
+.header {
+    background: black;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+.header__logo {
+    overflow-x: hidden;
+    
+}
+.header__imglogo {
+    overflow-x: hidden;
+    display: block;
+    block-size: 5em;
+    overflow: hidden;
+}
+
+.header__ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: column-reverse;
+}
+
+.header__li {
+    overflow: hidden;
+    padding: 7px;
+    margin: 7px;
+}
+.header__ancor {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    overflow: hidden;
+}
