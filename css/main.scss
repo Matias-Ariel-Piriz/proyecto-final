@@ -24,6 +24,12 @@
     color: white;
     padding: 10px 5px;
 }
+.titulo_h2{
+
+        padding: initial;
+        margin: 10px;
+    
+}
 .fecha-de-publicacion {
     color: white;
     padding: 0px 10px;}
@@ -41,13 +47,14 @@
     height: auto;
 }
 .contenido__articulo {
-    font-size: 1.3em;
+    font-size: 1rem;
     color: white;
     margin: 1.5rem 2rem;
     background-color: black;
     padding: 1rem;
     border: solid black ;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .articulo {
@@ -62,4 +69,8 @@
     /* block-size: 20vh; */
     width: 75%;
     height: auto;
+}
+.item__articulo {
+    padding: 10px 5px;
+    list-style: inside;
 }
