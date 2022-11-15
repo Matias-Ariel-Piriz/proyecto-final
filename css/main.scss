@@ -3,74 +3,33 @@
     margin: 0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-@import "header";
-.imagen_art {
-    background-color: #212121;
-    /* block-size: auto; */
-    /* width: -webkit-fill-available; */
+.link_articulo {
+    width: 85%;
+    height: auto;
+    background-color: black;
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 13px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2em;
+    flex-wrap: nowrap;
 }
-.imagen-baner {
- 
-    display: block;
-    width: 80%;
-    max-inline-size: -webkit-fill-available;
-    height: auto;
-}
-.titulo_h1 {
-    color: white;
-    padding: 10px 5px;
-}
-.titulo_h2{
-
-        padding: initial;
-        margin: 10px;
-    
-}
-.fecha-de-publicacion {
-    color: white;
-    padding: 0px 10px;}
-     .section_art {
-        background-color: #212120;
-        display: grid;
-        grid-gap: 15px;
-        grid-auto-columns: auto;
-        grid-auto-rows: auto;
-        justify-items: center; }
-    
-
-.imagen__articulo {
-    width: 100%;
-    height: auto;
-}
-.contenido__articulo {
-    font-size: 1rem;
-    color: white;
-    margin: 1.5rem 2rem;
-    background-color: black;
-    padding: 1rem;
-    border: solid black ;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.articulo {
+section.section_juegos {
+    background-color: #240041;
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    align-items: center;
+    grid-template-rows: auto;
     justify-items: center;
-    max-width: 1200px;;
+    grid-gap: 10px;
 }
-.imagen__articulo {
-    /* block-size: 20vh; */
-    width: 75%;
-    height: auto;
-}
-.item__articulo {
-    padding: 10px 5px;
-    list-style: inside;
-}
+
+    a.ancor__link {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        /* text-decoration: auto; */
+    }
+@import "header";
+@import "articulo";
