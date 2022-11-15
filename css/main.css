@@ -4,36 +4,6 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.link_articulo {
-  width: 85%;
-  height: auto;
-  background-color: black;
-  border: solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 13px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-section.section_juegos {
-  background-color: #240041;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  justify-items: center;
-  grid-gap: 10px;
-}
-
-a.ancor__link {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  /* text-decoration: auto; */
-}
-
 .header {
   background: black;
   display: flex;
@@ -153,4 +123,34 @@ a.ancor__link {
 .item__articulo {
   padding: 10px 5px;
   list-style: inside;
+}
+
+.link_articulo {
+  width: 85%;
+  height: auto;
+  background-color: black;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section.section_juegos {
+  background-color: #240041;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  grid-gap: 10px;
+}
+
+.ancor__link {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  /* text-decoration: auto; */
 }/*# sourceMappingURL=main.css.map */
