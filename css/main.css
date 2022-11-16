@@ -20,7 +20,6 @@
 }
 
 .header__imglogo {
-  overflow-x: hidden;
   display: block;
   block-size: 5em;
   overflow: hidden;
@@ -68,6 +67,7 @@
 .titulo_h1 {
   color: white;
   padding: 10px 5px;
+  text-align: center;
 }
 
 .titulo_h2 {
@@ -95,7 +95,9 @@
 }
 
 .contenido__articulo {
-  font-size: 1rem;
+  width: 80%;
+  height: auto;
+  font-size: 1.5rem;
   color: white;
   margin: 1.5rem 2rem;
   background-color: black;
