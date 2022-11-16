@@ -155,4 +155,13 @@ section.section_juegos {
   font-size: 15px;
   text-align: center;
   /* text-decoration: auto; */
+}
+
+.section_hardware {
+  display: grid;
+  background-color: #090089;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  grid-gap: 10px;
 }/*# sourceMappingURL=main.css.map */
