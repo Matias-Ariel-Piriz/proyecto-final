@@ -10,9 +10,30 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
-}
-section.section_juegos {
+
+
+}.section_juegos {
     background-color: #240041;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.section_hardware {
+    display: grid;
+    background-color: #090089;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 10px;
+    
+}
+
+
+.section_desarrollo {
+    background-color: #3d68bb;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
