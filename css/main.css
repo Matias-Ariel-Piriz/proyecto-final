@@ -134,7 +134,7 @@
   height: auto;
   background-color: black;
   border: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   margin: 13px;
   display: flex;
@@ -175,4 +175,16 @@
   font-size: 15px;
   text-align: center;
   /* text-decoration: auto; */
+}
+
+.section__index {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(223deg, rgb(2, 0, 36) 0%, rgb(30, 94, 207) 34%, rgb(156, 22, 151) 67%, rgb(36, 5, 112) 100%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 15px;
+  padding-top: 15px;
 }/*# sourceMappingURL=main.css.map */

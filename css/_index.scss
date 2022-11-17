@@ -1,0 +1,11 @@
+.section__index {
+    background: rgb(2,0,36);
+    background: linear-gradient(223deg, rgba(2,0,36,1) 0%, rgba(30,94,207,1) 34%, rgba(156,22,151,1) 67%, rgba(36,5,112,1) 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 15px;
+    padding-top: 15px;
+}
