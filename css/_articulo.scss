@@ -43,17 +43,18 @@
 }
 .contenido__articulo {
     width: 80%;
+    letter-spacing: 0.7px;
+    line-height: 1.6;
     height: auto;
     font-size: 1.5rem;
     color: white;
     margin: 1.5rem 2rem;
     background-color: black;
     padding: 1rem;
-    border: solid black ;
+    border: solid black;
     border-radius: 5px;
     overflow: hidden;
 }
-
 .articulo {
     display: grid;
     grid-template-columns: 1fr;
