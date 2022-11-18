@@ -4,6 +4,18 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.section__index {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(223deg, rgb(2, 0, 36) 0%, rgb(30, 94, 207) 34%, rgb(156, 22, 151) 67%, rgb(36, 5, 112) 100%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 15px;
+  padding-top: 15px;
+}
+
 .header {
   background: black;
   display: flex;
@@ -104,6 +116,8 @@
   color: white;
   font-size: 15px;
   text-align: center;
+  text-decoration: none;
+  line-height: 1.4;
   /* text-decoration: auto; */
 }
 
@@ -160,6 +174,7 @@
   line-height: 1.6;
   height: auto;
   font-size: 1.5rem;
+  font-family: "bitter";
   color: white;
   margin: 1.5rem 2rem;
   background-color: black;
@@ -211,4 +226,65 @@
 
 .footer__p {
   padding: 0px 0px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row;
+  }
+  .header__ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section__index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section_juegos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section_hardware {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section_desarrollo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #grid__meta {
+    grid-area: "meta";
+  }
+  #grid__premios {
+    grid-area: "premios";
+  }
+  #grid__control {
+    grid-area: "control";
+  }
+  #grid__intel {
+    grid-area: "intel";
+  }
+  #grid__google {
+    grid-area: "google";
+  }
+  #grid__disco {
+    grid-area: "disco";
+  }
+  .section__index {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "meta meta meta" "premios premios intel" "premios premios discos" "google google google";
+  }
+  .ancor__link {
+    font-size: 1.2em;
+  }
 }/*# sourceMappingURL=main.css.map */

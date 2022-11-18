@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) {
+
+    .header{
+        justify-content: space-around;
+        overflow:hidden;
+        align-items:center;
+        flex-direction:row;
+    }
+    .header__ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;}
+
+
+
+    .section__index{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .section_juegos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_hardware{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_desarrollo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+      
+         
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    #grid__meta{
+        grid-area:"meta";
+    }
+    #grid__premios{
+        grid-area: "premios";
+    }
+    #grid__control{
+        grid-area: "control";
+    }
+    #grid__intel{
+        grid-area: "intel";
+
+    }
+    #grid__google{
+        grid-area: "google";
+    }
+    #grid__disco{
+        grid-area: "disco";
+    }
+    .section__index {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "meta meta meta"
+            "premios premios intel"
+            "premios premios discos"
+            "google google google"}
+
+            .ancor__link{
+                font-size:  1.2em;
+            }
+    
+
+                         
+    
+        
+   
+    
+}

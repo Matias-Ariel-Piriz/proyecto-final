@@ -12,7 +12,8 @@
     flex-wrap: nowrap;
 
 
-}.section_juegos {
+}
+.section_juegos {
     background-color: #240041;
     display: grid;
     grid-template-columns: 1fr;
@@ -45,5 +46,8 @@
         color: white;
         font-size: 15px;
         text-align: center;
+        text-decoration: none;
+        line-height: 1.4;
         /* text-decoration: auto; */
     }
+
