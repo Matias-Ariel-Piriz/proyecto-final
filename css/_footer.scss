@@ -1,0 +1,25 @@
+
+
+.imagen__rs {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    block-size: 5vh;
+   
+   filter: grayscale(100%);
+    
+}
+
+.imagen__rs:hover {
+    filter: none;
+    transform: scale(110%);
+    transition: 1s;
+}
+.footer {
+    background-color: #121212;
+    padding: 10px 30px 10px;
+    color: #787878;
+}
+.footer__p {
+    padding: 0px 0px 10px;
+}
